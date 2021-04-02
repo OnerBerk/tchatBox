@@ -1,0 +1,90 @@
+.mainForm {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #091d24;
+}
+
+.logIn {
+    width: 35em;
+    height: 20em;
+    border: 3px solid #74a068;
+    padding: 2em;
+}
+
+.logIn input {
+    margin: 0.5em;
+    border: 3px solid #74a068;
+    height: 1.3em;
+    font-size: 1.2em;
+    outline: transparent;
+}
+
+.logIn button {
+    margin-top: 0.5em;
+    height: 1.3em;
+    background-color: #74a068;
+    border: none;
+    font-size: 1.2em;
+}
+
+
+.logIn button:hover {
+    color: snow;
+    cursor: pointer;
+    background-color: #586e63;
+}
+
+.logIn button:focus {
+    outline: transparent;
+}
+
+.logged {
+    width: 35em;
+    height: 20em;
+    display: grid;
+    grid-template-rows: 85% 15%;
+    border: 3px solid #74a068;
+    padding: 0.2em;
+}
+
+.message {
+    background-color: transparent;
+}
+
+.LoggedInput {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.logged input {
+    outline: none;
+}
+
+#you {
+    background-color: #437b8a;
+    color: snow;
+    width: 17em;
+    height: auto;
+    margin: 0.5em;
+    border-radius: 15px;
+}
+ #other {
+    background-color: #f12758;
+    color: snow;
+    width: 17em;
+    height: auto;
+    border-radius: 15px;
+     margin-left: 17.5em;
+}
+
+.eachMessages p{
+    padding-top: 0.5em;
+}
+.eachMessages span{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.8em;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+}
